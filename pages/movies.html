@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/Moviestack_favicon.png" type="image/x-icon">
     <title>Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/Moviestackdata.js"></script>
 </head>
 <body>
     <nav>
         <div class="flex justify-between items-center bg-black h-full w-full  mb-8" > 
              <div class="flex">
-               <div class="w-20"> <img src="../assets/Moviestack_favicon.png" alt="Logo de marca"></div>
-               <div class="w-40"> <img src="../assets/Moviestack_logotipo1.png" alt="Titulo de marca"></div>
+                <div class="w-20"> <img src="../assets/Moviestack_isotipo.png" alt="Logo de marca"></div>
+                <div class="w-40"> <img src="../assets/Moviestack_logotipo1.png" alt="Titulo de marca"></div>
             </div>
         
 
@@ -40,38 +40,14 @@
         </div>
     </header>
     <main>
-        <section class="mb-8">
-            <div class="flex flex-wrap justify-center gap-4 ">
-                <div class="bg-gray-200 p-4 rounded-lg shadow-md w-64 ">
-                    <img src="https://moviestack.onrender.com/static/y5szbv8zju.jpg" class="w-full h-48 object-cover mb-4" alt="The Nun II">
-                    <h5 class="text-xl font-semibold mb-2">Titulo 1</h5>
-                    <p class="text-gray-600 text-sm mb-2">Tangline</p>
-                    <p class="text-gray-600">Description. Dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                <div class="bg-gray-200 p-4 rounded-lg shadow-md w-64">
-                    <img src="https://moviestack.onrender.com/static/y5szbv8zju.jpg" class="w-full h-48 object-cover mb-4" alt="The Nun II">
-                    <h5 class="text-xl font-semibold mb-2">Titulo 2</h5>
-                    <p class="text-gray-600 text-sm mb-2">Tangline</p>
-                    <p class="text-gray-600">Description. Dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                <div class="bg-gray-200 p-4 rounded-lg shadow-md w-64">
-                    <img src="https://moviestack.onrender.com/static/y5szbv8zju.jpg" class="w-full h-48 object-cover mb-4" alt="The Nun II">
-                    <h5 class="text-xl font-semibold mb-2">Titulo 3</h5>
-                    <p class="text-gray-600 text-sm mb-2">Tangline</p>
-                    <p class="text-gray-600">Description. Dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                <div class="bg-gray-200 p-4 rounded-lg shadow-md w-64">
-                    <img src="https://moviestack.onrender.com/static/y5szbv8zju.jpg" class="w-full h-48 object-cover mb-4" alt="The Nun II">
-                    <h5 class="text-xl font-semibold mb-2">Titulo 4</h5>
-                    <p class="text-gray-600 text-sm mb-2">Tangline</p>
-                    <p class="text-gray-600">Description. Dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                
+        <section class="mb-8 flex flex-wrap justify-center gap-4" id="movies-section">     
         </section>
     
     </main>
     <footer class="bg-black text-white text-center py-5">
         <p class="m-0">MindHub - Cohorte acc</p>
     </footer>
+    <script src="../assets/Moviestackdata.js"></script>
+    <script src="../assets/movie.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-[
+const movies = [
     {
       "id": "653035c2c61a4a32bd272480",
       "image": "https://moviestack.onrender.com/static/y5szbv8zju.jpg",
@@ -655,5 +655,5 @@
       "tagline": "Some assembly required.",
       "budget": 220000000
     }
-  ]
+  ];
   
