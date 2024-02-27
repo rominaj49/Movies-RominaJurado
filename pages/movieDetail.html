@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/Moviestack_favicon.png" type="image/x-icon">
+    <title>Movies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav>
+        <div class="flex justify-between items-center bg-black h-full w-full  mb-8" > 
+             <div class="flex">
+                <div class="w-20"> <img src="../assets/img/Moviestack_isotipo.png" alt="Logo de marca"></div>
+                <div class="w-40"> <img src="../assets/img/Moviestack_logotipo1.png" alt="Titulo de marca"></div>
+            </div>
+        
+
+            <div class="movie-filter w-60 mx-6">
+                <ul class="flex flex-row justify-center space-x-4">
+                    <li class="w-24 h-10 flex items-center justify-center">
+                        <a href="../index.html" class="text-white hover:text-gray-400">HOME</a>
+                    </li>
+                    <li class="w-24 h-10 border-solid border-2 border-white flex items-center justify-center">
+                        <a href="../pages/movies.html" class="text-white">MOVIES</a>
+                    </li>
+                    <li class="w-24 h-10 flex items-center justify-center">
+                        <a href="" class="text-white hover:text-gray-400">FAVS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="containerDetail"></main>
+
+    <script src="../assets/js/Moviestackdata.js"></script>
+    <script src="../assets/js/movieDetail.js"></script>
+</body>
+</html>

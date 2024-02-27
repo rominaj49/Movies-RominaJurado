@@ -9,10 +9,10 @@
 </head>
 <body>
     <nav>
-        <div class="flex justify-between items-center bg-black h-full w-full  mb-8" > 
+        <div class="flex justify-between items-center bg-black h-full w-full" > 
              <div class="flex">
-                <div class="w-20"> <img src="../assets/Moviestack_isotipo.png" alt="Logo de marca"></div>
-                <div class="w-40"> <img src="../assets/Moviestack_logotipo1.png" alt="Titulo de marca"></div>
+                <div class="w-20"> <img src="../assets/img/Moviestack_isotipo.png" alt="Logo de marca"></div>
+                <div class="w-40"> <img src="../assets/img/Moviestack_logotipo1.png" alt="Titulo de marca"></div>
             </div>
         
 
@@ -35,11 +35,36 @@
     <header>
         <div class="banner mb-8">
             <div class="flex items-center justify-center h-90">
-                <img src="../assets/media_15adb724a8f21f5a3cb1d7622dcf3b299708c9704.png" alt="Banner" class="max-w-full max-h-full">
+                <img src="../assets/img/fondo-bodegones-cine_23-2150743148.jpg" alt="Banner"  class="w-full h-screenr">
             </div>
         </div>
     </header>
     <main>
+        
+        <div class="inputsBuscadores justify-center flex items-center rounded m-9">
+
+            <div class="w-1/4 mx-4 flex">
+                <select id="genreSelect" class="w-full p-2 border bg-gray-200 border-gray-300 rounded">
+                    <option value="genre">Genre</option>
+                    <option value="Action">Acción</option>
+                    <option value="Animation">Animación</option>
+                    <option value="Crime">Crimen</option>
+                    <option value="Comedy">Comedia</option>
+                    <option value="Adventure">Aventura</option>
+                    <option value="Science Fiction">Ciencia ficción</option>
+                    <option value="Comedy">Comedia</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Fantasy">Fantasía</option>
+                    <option value="Family">Familia</option>
+                    <option value="Thriller">Suspenso</option>
+                    <option value="History">Historia</option>
+                </select>
+            </div>
+            <div class="w-1/4 mx-4 flex">
+                <input type="text" id="inputBusqueda" class="w-full p-2 border border-gray-300 rounded bg-gray-200" placeholder="Search">
+            </div>
+        </div>
+  
         <section class="mb-8 flex flex-wrap justify-center gap-4" id="movies-section">     
         </section>
     
@@ -47,7 +72,7 @@
     <footer class="bg-black text-white text-center py-5">
         <p class="m-0">MindHub - Cohorte acc</p>
     </footer>
-    <script src="../assets/Moviestackdata.js"></script>
-    <script src="../assets/movie.js"></script>
+    <script src="../assets/js/Moviestackdata.js"></script>
+    <script src="../assets/js/movie.js"></script>
 </body>
 </html>
