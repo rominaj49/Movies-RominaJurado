@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <div class="flex justify-between items-center bg-black h-full w-full  mb-8" > 
+        <div class="flex justify-between items-center bg-black h-full w-full" > 
              <div class="flex">
                 <div class="w-20"> <img src="../assets/img/Moviestack_isotipo.png" alt="Logo de marca"></div>
                 <div class="w-40"> <img src="../assets/img/Moviestack_logotipo1.png" alt="Titulo de marca"></div>
@@ -21,18 +21,26 @@
                     <li class="w-24 h-10 flex items-center justify-center">
                         <a href="../index.html" class="text-white hover:text-gray-400">HOME</a>
                     </li>
-                    <li class="w-24 h-10 border-solid border-2 border-white flex items-center justify-center">
+                    <li class="w-24 h-10 flex items-center justify-center">
                         <a href="../pages/movies.html" class="text-white">MOVIES</a>
                     </li>
-                    <li class="w-24 h-10 flex items-center justify-center">
+                    <li class="w-24 h-10 border-solid border-2 border-white flex items-center justify-center">
                         <a href="../pages/movieFavourie.html" class="text-white hover:text-gray-400">FAVS</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main id="containerDetail"></main>
+    <header>
+        <div class="banner mb-8">
+            <div class="flex items-center justify-center h-90">
+                <img src="../assets/img/fondo-bodegones-cine_23-2150743148.jpg" alt="Banner"  class="w-full h-screenr">
+            </div>
+        </div>
+    </header>
+    
+    <main id="containerFavourite"></main>
 
-    <script src="../assets/js/movieDetailFetch.js"></script>
+    <script src="../assets/js/movieFetch.js"></script>
 </body>
 </html>
